@@ -11,6 +11,3 @@ for(var i = 1; i < 100; i++){
   document.getElementById('list').appendChild(li);
 }
   
-
-document.getElementById('form').onsubmit = function(){
-window.alert(document.getelementById('form').word.value);
