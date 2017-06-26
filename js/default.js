@@ -7,7 +7,7 @@ for(var i = 1; i < 100; i++){
   }else if(i % 5 == 0){
    return li.textContent = 'Buzz';
   } else {
-   return li.textContent = i;
+   return li.textContent = i + '回数';
   document.getElementById('list').appendChild(li);
 }
   
