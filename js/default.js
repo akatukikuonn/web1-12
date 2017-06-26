@@ -3,11 +3,11 @@ for(var i = 1; i < 100; i++){
   if(i % 3 == 0 && i % 5 == 0)
     li.textContent = 'FizzBuzz';
   else if(i % 3 == 0){
-   return li.textContent = 'Fizz';
+    li.textContent = 'Fizz';
   }else if(i % 5 == 0){
-   return li.textContent = 'Buzz';
+    li.textContent = 'Buzz';
   } else {
-   return li.textContent = i + '回数';
+    li.textContent = i + '回数';
   document.getElementById('list').appendChild(li);
 }
   
