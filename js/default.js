@@ -1,4 +1,4 @@
-for(var i = 1; i < 100; i++){
+for(var i = 1; i <= 100; i++){
   var li = document.createElement('li');
   if(i % 3 == 0 && i % 5 == 0)
     li.textContent = 'FizzBuzz';
